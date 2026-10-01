@@ -119,38 +119,6 @@ pip install -r requirements.txt
 
 ---
 
-## 5. Запуск проекта
-
-### 5.1. Создание виртуального окружения
-
-Windows:
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-Linux/macOS:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 5.2. Установка зависимостей
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5.3. Запуск
-
-Из корневой директории проекта:
-
-```bash
-python main.py
-```
-
 После выполнения программа автоматически сформирует результаты в каталоге `results/`.
 
 ---
