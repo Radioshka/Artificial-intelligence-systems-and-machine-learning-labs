@@ -1,1 +1,1 @@
-# Artificial-intelligence-systems-and-machine-learning-labs
+# Системы искусственного интеллекта и машинное обучение
