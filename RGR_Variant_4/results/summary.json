@@ -1,0 +1,579 @@
+{
+  "n_collected": 143,
+  "n_with_body": 131,
+  "n_analyzed": 127,
+  "n_classified": 110,
+  "date_min": "2013-09-04",
+  "date_max": "2026-11-18",
+  "site_counts": {
+    "arXiv": 41,
+    "Forbes": 82,
+    "TechCrunch": 4
+  },
+  "collected_at": "2026-11-19T12:46:02+00:00",
+  "class_counts": {
+    "торговые стратегии": 21,
+    "риск и регулирование": 25,
+    "инвестиции": 46,
+    "банки и финтех": 18,
+    "прочие материалы": 17
+  },
+  "class_counts_used": {
+    "банки и финтех": 18,
+    "инвестиции": 46,
+    "риск и регулирование": 25,
+    "торговые стратегии": 21
+  },
+  "term_rows": [
+    {
+      "term": "ML",
+      "occurrences": 66,
+      "documents": 25
+    },
+    {
+      "term": "DL",
+      "occurrences": 2,
+      "documents": 1
+    },
+    {
+      "term": "Deep Learning",
+      "occurrences": 25,
+      "documents": 20
+    },
+    {
+      "term": "NLP",
+      "occurrences": 9,
+      "documents": 6
+    },
+    {
+      "term": "Computer Vision",
+      "occurrences": 2,
+      "documents": 2
+    },
+    {
+      "term": "LLM",
+      "occurrences": 66,
+      "documents": 24
+    },
+    {
+      "term": "Generative AI",
+      "occurrences": 88,
+      "documents": 30
+    },
+    {
+      "term": "Algorithmic trading",
+      "occurrences": 57,
+      "documents": 17
+    },
+    {
+      "term": "Fraud",
+      "occurrences": 134,
+      "documents": 13
+    },
+    {
+      "term": "Risk",
+      "occurrences": 238,
+      "documents": 72
+    },
+    {
+      "term": "Fintech",
+      "occurrences": 47,
+      "documents": 14
+    },
+    {
+      "term": "Portfolio",
+      "occurrences": 103,
+      "documents": 39
+    }
+  ],
+  "top_lemmas": [
+    {
+      "lemma": "market",
+      "count": 520
+    },
+    {
+      "lemma": "financial",
+      "count": 504
+    },
+    {
+      "lemma": "data",
+      "count": 416
+    },
+    {
+      "lemma": "company",
+      "count": 379
+    },
+    {
+      "lemma": "use",
+      "count": 327
+    },
+    {
+      "lemma": "model",
+      "count": 327
+    },
+    {
+      "lemma": "make",
+      "count": 312
+    },
+    {
+      "lemma": "investment",
+      "count": 296
+    },
+    {
+      "lemma": "stock",
+      "count": 282
+    },
+    {
+      "lemma": "risk",
+      "count": 281
+    },
+    {
+      "lemma": "trading",
+      "count": 277
+    },
+    {
+      "lemma": "investor",
+      "count": 274
+    },
+    {
+      "lemma": "technology",
+      "count": 266
+    },
+    {
+      "lemma": "time",
+      "count": 215
+    },
+    {
+      "lemma": "bank",
+      "count": 210
+    },
+    {
+      "lemma": "agent",
+      "count": 192
+    },
+    {
+      "lemma": "service",
+      "count": 192
+    },
+    {
+      "lemma": "tool",
+      "count": 190
+    },
+    {
+      "lemma": "fund",
+      "count": 188
+    },
+    {
+      "lemma": "customer",
+      "count": 184
+    }
+  ],
+  "tfidf_top": [
+    {
+      "term": "ai",
+      "mean_tfidf": 0.1231
+    },
+    {
+      "term": "financial",
+      "mean_tfidf": 0.0472
+    },
+    {
+      "term": "trading",
+      "mean_tfidf": 0.0433
+    },
+    {
+      "term": "data",
+      "mean_tfidf": 0.0383
+    },
+    {
+      "term": "market",
+      "mean_tfidf": 0.0377
+    },
+    {
+      "term": "investment",
+      "mean_tfidf": 0.0272
+    },
+    {
+      "term": "agents",
+      "mean_tfidf": 0.0268
+    },
+    {
+      "term": "investors",
+      "mean_tfidf": 0.0264
+    },
+    {
+      "term": "risk",
+      "mean_tfidf": 0.0254
+    },
+    {
+      "term": "models",
+      "mean_tfidf": 0.0242
+    },
+    {
+      "term": "fraud",
+      "mean_tfidf": 0.0242
+    },
+    {
+      "term": "model",
+      "mean_tfidf": 0.0239
+    },
+    {
+      "term": "stock",
+      "mean_tfidf": 0.0236
+    },
+    {
+      "term": "company",
+      "mean_tfidf": 0.0231
+    },
+    {
+      "term": "time",
+      "mean_tfidf": 0.023
+    },
+    {
+      "term": "technology",
+      "mean_tfidf": 0.0219
+    },
+    {
+      "term": "human",
+      "mean_tfidf": 0.0212
+    },
+    {
+      "term": "companies",
+      "mean_tfidf": 0.021
+    },
+    {
+      "term": "services",
+      "mean_tfidf": 0.0203
+    },
+    {
+      "term": "agent",
+      "mean_tfidf": 0.0202
+    }
+  ],
+  "preprocess_example": {
+    "source": "Algorithmic Market Making Can Lead to Rough Volatility Through the Order Book. Existing work suggests that markets can show volatility with paths rougher than those of Brownian motion. In theory this can happen when the order flow is close to instability with memory that decays a",
+    "tokens": [
+      "algorithmic",
+      "market",
+      "making",
+      "can",
+      "lead",
+      "rough",
+      "volatility",
+      "through",
+      "the",
+      "order",
+      "book",
+      "existing",
+      "work",
+      "suggests",
+      "that",
+      "markets",
+      "can",
+      "show",
+      "volatility",
+      "with",
+      "paths",
+      "rougher",
+      "than",
+      "those",
+      "brownian"
+    ],
+    "no_stop": [
+      "algorithmic",
+      "market",
+      "making",
+      "lead",
+      "rough",
+      "volatility",
+      "order",
+      "book",
+      "existing",
+      "work",
+      "suggests",
+      "markets",
+      "show",
+      "volatility",
+      "paths",
+      "rougher",
+      "brownian",
+      "motion",
+      "theory",
+      "happen",
+      "order",
+      "flow",
+      "close",
+      "instability",
+      "memory"
+    ],
+    "stems": [
+      "algorithm",
+      "market",
+      "make",
+      "lead",
+      "rough",
+      "volatil",
+      "order",
+      "book",
+      "exist",
+      "work",
+      "suggest",
+      "market",
+      "show",
+      "volatil",
+      "path",
+      "rougher",
+      "brownian",
+      "motion",
+      "theori",
+      "happen",
+      "order",
+      "flow",
+      "close",
+      "instabl",
+      "memori"
+    ],
+    "lemmas": [
+      "algorithmic",
+      "market",
+      "make",
+      "lead",
+      "rough",
+      "volatility",
+      "order",
+      "book",
+      "exist",
+      "work",
+      "suggest",
+      "market",
+      "show",
+      "volatility",
+      "path",
+      "rougher",
+      "brownian",
+      "motion",
+      "theory",
+      "happen",
+      "order",
+      "flow",
+      "close",
+      "instability",
+      "memory"
+    ]
+  },
+  "nb_full": {
+    "n_train": 82,
+    "n_test": 28,
+    "fit_prior": true,
+    "alpha": 1.0,
+    "labels": [
+      "banking",
+      "investment",
+      "risk",
+      "trading"
+    ],
+    "accuracy": 0.464,
+    "macro_f1": 0.225,
+    "baseline_accuracy": 0.429,
+    "majority_class": "investment",
+    "confusion_matrix": [
+      [
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        1,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0
+      ]
+    ],
+    "report": "              precision    recall  f1-score   support\n\n     banking      0.000     0.000     0.000         5\n  investment      0.444     1.000     0.615        12\n        risk      1.000     0.167     0.286         6\n     trading      0.000     0.000     0.000         5\n\n    accuracy                          0.464        28\n   macro avg      0.361     0.292     0.225        28\nweighted avg      0.405     0.464     0.325        28\n"
+  },
+  "nb_balanced": {
+    "n_train": 82,
+    "n_test": 28,
+    "fit_prior": false,
+    "alpha": 1.0,
+    "labels": [
+      "banking",
+      "investment",
+      "risk",
+      "trading"
+    ],
+    "accuracy": 0.571,
+    "macro_f1": 0.47,
+    "baseline_accuracy": 0.429,
+    "majority_class": "investment",
+    "confusion_matrix": [
+      [
+        1,
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        10,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        4,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        1
+      ]
+    ],
+    "report": "              precision    recall  f1-score   support\n\n     banking      0.500     0.200     0.286         5\n  investment      0.588     0.833     0.690        12\n        risk      0.500     0.667     0.571         6\n     trading      1.000     0.200     0.333         5\n\n    accuracy                          0.571        28\n   macro avg      0.647     0.475     0.470        28\nweighted avg      0.627     0.571     0.529        28\n"
+  },
+  "nb_masked": {
+    "n_train": 82,
+    "n_test": 28,
+    "fit_prior": false,
+    "alpha": 1.0,
+    "labels": [
+      "banking",
+      "investment",
+      "risk",
+      "trading"
+    ],
+    "accuracy": 0.536,
+    "macro_f1": 0.381,
+    "baseline_accuracy": 0.429,
+    "majority_class": "investment",
+    "confusion_matrix": [
+      [
+        1,
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        10,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        4,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0
+      ]
+    ],
+    "report": "              precision    recall  f1-score   support\n\n     banking      0.500     0.200     0.286         5\n  investment      0.556     0.833     0.667        12\n        risk      0.500     0.667     0.571         6\n     trading      0.000     0.000     0.000         5\n\n    accuracy                          0.536        28\n   macro avg      0.389     0.425     0.381        28\nweighted avg      0.435     0.536     0.459        28\n"
+  },
+  "sample_titles": [
+    {
+      "published": "2026-11-18",
+      "title": "Algorithmic Market Making Can Lead to Rough Volatility Through the Order Book",
+      "class_title": "торговые стратегии",
+      "url": "https://arxiv.org/abs/2611.24028v1",
+      "text_source": "arxiv"
+    },
+    {
+      "published": "2026-11-18",
+      "title": "Vibe-Trading: Towards Agent-Native Trading",
+      "class_title": "инвестиции",
+      "url": "https://arxiv.org/abs/2611.24845v1",
+      "text_source": "arxiv"
+    },
+    {
+      "published": "2026-11-13",
+      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+      "class_title": "прочие материалы",
+      "url": "https://arxiv.org/abs/2611.18531v1",
+      "text_source": "arxiv"
+    },
+    {
+      "published": "2026-11-13",
+      "title": "Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents",
+      "class_title": "прочие материалы",
+      "url": "https://arxiv.org/abs/2611.18150v1",
+      "text_source": "arxiv"
+    },
+    {
+      "published": "2026-11-12",
+      "title": "How To Build Financial AI Capacity As A Competitive Advantage",
+      "class_title": "риск и регулирование",
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/12/how-to-build-financial-ai-capacity-as-a-competitive-advantage/",
+      "text_source": "forbes"
+    },
+    {
+      "published": "2026-11-12",
+      "title": "How Banks Can Govern Customer-Owned AI Agents They Don’t Own",
+      "class_title": "банки и финтех",
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/12/how-banks-can-govern-customer-owned-ai-agents-they-dont-own/",
+      "text_source": "forbes"
+    },
+    {
+      "published": "2026-11-12",
+      "title": "AI Agents Are Forcing Banks To Build A New Kind Of Finance Team",
+      "class_title": "прочие материалы",
+      "url": "https://www.forbes.com/sites/renanaashkenazi/2026/11/12/ai-agents-are-forcing-banks-to-build-a-new-kind-of-finance-team/",
+      "text_source": "archive"
+    },
+    {
+      "published": "2026-11-12",
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "class_title": "прочие материалы",
+      "url": "https://arxiv.org/abs/2611.17515v1",
+      "text_source": "arxiv"
+    },
+    {
+      "published": "2026-11-10",
+      "title": "Could AI Make Fractional CFOs The Future Of Finance?",
+      "class_title": "банки и финтех",
+      "url": "https://www.forbes.com/sites/cfo/2026/11/10/could-ai-make-fractional-cfos-the-future-of-finance/",
+      "text_source": "archive"
+    },
+    {
+      "published": "2026-11-10",
+      "title": "Deep Learning for Operator Maps in Optimal Liquidation",
+      "class_title": "прочие материалы",
+      "url": "https://arxiv.org/abs/2611.14245v1",
+      "text_source": "arxiv"
+    },
+    {
+      "published": "2026-11-09",
+      "title": "Best AI Stocks Of 2026",
+      "class_title": "инвестиции",
+      "url": "https://www.forbes.com/advisor/investing/best-ai-stocks/",
+      "text_source": "archive"
+    },
+    {
+      "published": "2026-11-09",
+      "title": "ChatGPT Claws Back AI Market Share From Competitors, Study Finds",
+      "class_title": "прочие материалы",
+      "url": "https://www.forbes.com/sites/conormurray/2026/11/09/chatgpt-is-regaining-ai-market-share-over-top-rivals-claude-and-gemini-study-says/",
+      "text_source": "archive"
+    }
+  ]
+}

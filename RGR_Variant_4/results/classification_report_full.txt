@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+     banking      0.000     0.000     0.000         5
+  investment      0.444     1.000     0.615        12
+        risk      1.000     0.167     0.286         6
+     trading      0.000     0.000     0.000         5
+
+    accuracy                          0.464        28
+   macro avg      0.361     0.292     0.225        28
+weighted avg      0.405     0.464     0.325        28
